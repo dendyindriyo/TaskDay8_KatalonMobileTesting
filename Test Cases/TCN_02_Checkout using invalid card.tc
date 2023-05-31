@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCN_02_Checkout using invalid card</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>692818fa-62b0-4fb8-b813-cc4b313d96bd</testCaseGuid>
+</TestCaseEntity>
