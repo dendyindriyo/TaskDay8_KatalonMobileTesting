@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('D:\\APK\\Android-MyDemoAppRN.1.2.0.build-231.apk', true)
+Mobile.startApplication(GlobalVariable.APK, true)
 
 Mobile.tap(findTestObject('Object Repository/Android/android.widget.ImageView - Sauce Labs Backpack'), 0)
 
@@ -31,9 +31,10 @@ Mobile.tap(findTestObject('Object Repository/Android/android.widget.ImageView - 
 
 Mobile.tap(findTestObject('Object Repository/Android/android.widget.TextView - Proceed To Checkout'), 0)
 
-Mobile.setText(findTestObject('Object Repository/Android/android.widget.EditText - Username'), 'bob@example.com', 0)
+Mobile.setText(findTestObject('Object Repository/Android/android.widget.EditText - Username'), GlobalVariable.USERNAME, 
+    0)
 
-Mobile.setEncryptedText(findTestObject('Object Repository/Android/android.widget.EditText - Password'), 'dbXIBZ66cuht4KTRMDozZw==', 
+Mobile.setEncryptedText(findTestObject('Object Repository/Android/android.widget.EditText - Password'), GlobalVariable.PASSWORD, 
     0)
 
 Mobile.tap(findTestObject('Object Repository/Android/android.widget.TextView - Login'), 0)
