@@ -4,4 +4,24 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'bob@example.com'</initValue>
+      <name>USERNAME</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'alice@example.com'</initValue>
+      <name>INV_USERNAME</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'dbXIBZ66cuht4KTRMDozZw=='</initValue>
+      <name>PASSWORD</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'D:\\APK\\Android-MyDemoAppRN.1.2.0.build-231.apk'</initValue>
+      <name>APK</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
