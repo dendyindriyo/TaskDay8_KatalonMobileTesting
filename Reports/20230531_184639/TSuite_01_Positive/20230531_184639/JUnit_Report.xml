@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TSuite_01_Positive" time="120.546" tests="3" failures="0" errors="0">
+   <testsuite name="TSuite_01_Positive" tests="3" failures="0" errors="0" time="120.546" skipped="0" timestamp="2023-05-31 18:46:41" hostname="Danang - DESKTOP-V3UDJBC" id="Test Suites/TSuite_01_Positive">
+      <properties>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone_x86_64 - Android 13)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Program Files\\Katalon\\Katalon Projects\\TaskDay8_KatalonMobileTesting_DendyIndriyoSaputro\\Reports\\20230531_184639\\TSuite_01_Positive\\20230531_184639"/>
+         <property name="logFiles" value="D:\\Program Files\\Katalon\\Katalon Projects\\TaskDay8_KatalonMobileTesting_DendyIndriyoSaputro\\Reports\\20230531_184639\\TSuite_01_Positive\\20230531_184639\\appium.log, D:\\Program Files\\Katalon\\Katalon Projects\\TaskDay8_KatalonMobileTesting_DendyIndriyoSaputro\\Reports\\20230531_184639\\TSuite_01_Positive\\20230531_184639\\execution0.log"/>
+         <property name="attachments" value="D:\Program Files\Katalon\Katalon Projects\TaskDay8_KatalonMobileTesting_DendyIndriyoSaputro\Screenshot\screenshot1.png, D:\Program Files\Katalon\Katalon Projects\TaskDay8_KatalonMobileTesting_DendyIndriyoSaputro\Screenshot\screenshot3.png"/>
+         <property name="hostName" value="Danang - DESKTOP-V3UDJBC"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.6.0.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="sdk_gphone_x86_64"/>
+         <property name="hostAddress" value="192.168.100.4"/>
+         <property name="deviceManufacturer" value="Google"/>
+         <property name="deviceId" value="emulator-5554"/>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone_x86_64 - Android 13)"/>
+         <property name="deviceOSVersion" value="13"/>
+      </properties>
+      <testcase name="Test Cases/TC_01_Checkout using valid account" time="45.734" classname="Test Cases/TC_01_Checkout using valid account" status="PASSED">
+         <system-out><![CDATA[2023-05-31 18:46:41 - [TEST_CASE][PASSED] - Test Cases/TC_01_Checkout using valid account: Test Cases/TC_01_Checkout using valid account
+
+2023-05-31 18:46:41 - [TEST_STEP][PASSED] - startApplication(APK, true): Started app at: 'D:\APK\Android-MyDemoAppRN.1.2.0.build-231.apk'
+
+2023-05-31 18:46:42 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-05-31 18:46:43 - [MESSAGE][INFO] - Appium server started on port 52,968
+
+2023-05-31 18:46:53 - [MESSAGE][PASSED] - Started app at: 'D:\APK\Android-MyDemoAppRN.1.2.0.build-231.apk'
+
+2023-05-31 18:46:53 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Android/android.widget.ImageView - Sauce Labs Backpack"), 0): Tapped on element 'Object Repository/Android/android.widget.ImageView - Sauce Labs Backpack'
+
+2023-05-31 18:46:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-31 18:46:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/android.widget.ImageView - Sauce Labs Backpack'
+
+2023-05-31 18:46:54 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Android/android.widget.ImageView - Plus Icon"), 0): Tapped on element 'Object Repository/Android/android.widget.ImageView - Plus Icon'
+
+2023-05-31 18:46:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-31 18:46:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/android.widget.ImageView - Plus Icon'
+
+2023-05-31 18:46:55 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Android/android.widget.TextView - Add To Cart"), 0): Tapped on element 'Object Repository/Android/android.widget.TextView - Add To Cart'
+
+2023-05-31 18:46:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-31 18:46:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/android.widget.TextView - Add To Cart'
+
+2023-05-31 18:46:56 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Android/android.widget.ImageView - Cart Icon"), 0): Tapped on element 'Object Repository/Android/android.widget.ImageView - Cart Icon'
+
+2023-05-31 18:46:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-31 18:46:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/android.widget.ImageView - Cart Icon'
+
+2023-05-31 18:46:57 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Android/android.widget.ImageView - Minus Icon"), 0): Tapped on element 'Object Repository/Android/android.widget.ImageView - Minus Icon'
+
+2023-05-31 18:46:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-31 18:46:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/android.widget.ImageView - Minus Icon'
+
+2023-05-31 18:46:58 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Android/android.widget.TextView - Proceed To Checkout"), 0): Tapped on element 'Object Repository/Android/android.widget.TextView - Proceed To Checkout'
+
+2023-05-31 18:46:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-31 18:46:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/android.widget.TextView - Proceed To Checkout'
+
+2023-05-31 18:46:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Android/android.widget.EditText - Username"), USERNAME, 0): Text 'bob@example.com' has been set to element 'Object Repository/Android/android.widget.EditText - Username'
+
+2023-05-31 18:46:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-31 18:47:01 - [MESSAGE][PASSED] - Text 'bob@example.com' has been set to element 'Object Repository/Android/android.widget.EditText - Username'
+
+2023-05-31 18:47:01 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Android/android.widget.EditText - Password"), PASSWORD, 0): Encrypted text 'dbXIBZ66cuht4KTRMDozZw==' has been set to element 'Object Repository/Android/android.widget.EditText - Password'
+
+2023-05-31 18:47:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-31 18:47:02 - [MESSAGE][PASSED] - Encrypted text 'dbXIBZ66cuht4KTRMDozZw==' has been set to element 'Object Repository/Android/android.widget.EditText - Password'
+
+2023-05-31 18:47:02 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Android/android.widget.TextView - Login"), 0): Tapped on element 'Object Repository/Android/android.widget.TextView - Login'
+
+2023-05-31 18:47:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-31 18:47:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/android.widget.TextView - Login'
+
+2023-05-31 18:47:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Android/android.widget.EditText - Full Name"), "Abdul Budi", 0): Text 'Abdul Budi' has been set to element 'Object Repository/Android/android.widget.EditText - Full Name'
+
+2023-05-31 18:47:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-31 18:47:05 - [MESSAGE][PASSED] - Text 'Abdul Budi' has been set to element 'Object Repository/Android/android.widget.EditText - Full Name'
+
+2023-05-31 18:47:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Android/android.widget.EditText - Address Line 1"), "Mawar 123", 0): Text 'Mawar 123' has been set to element 'Object Repository/Android/android.widget.EditText - Address Line 1'
+
+2023-05-31 18:47:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-31 18:47:07 - [MESSAGE][PASSED] - Text 'Mawar 123' has been set to element 'Object Repository/Android/android.widget.EditText - Address Line 1'
+
+2023-05-31 18:47:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Android/android.widget.EditText - City"), "Bekasi", 0): Text 'Bekasi' has been set to element 'Object Repository/Android/android.widget.EditText - City'
+
+2023-05-31 18:47:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-31 18:47:08 - [MESSAGE][PASSED] - Text 'Bekasi' has been set to element 'Object Repository/Android/android.widget.EditText - City'
+
+2023-05-31 18:47:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Android/android.widget.EditText - StateorRegion"), "Jawa Barat", 0): Text 'Jawa Barat' has been set to element 'Object Repository/Android/android.widget.EditText - StateorRegion'
+
+2023-05-31 18:47:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-31 18:47:10 - [MESSAGE][PASSED] - Text 'Jawa Barat' has been set to element 'Object Repository/Android/android.widget.EditText - StateorRegion'
+
+2023-05-31 18:47:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Android/android.widget.EditText - Zip Code"), "17424", 0): Text '17424' has been set to element 'Object Repository/Android/android.widget.EditText - Zip Code'
+
+2023-05-31 18:47:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-31 18:47:11 - [MESSAGE][PASSED] - Text '17424' has been set to element 'Object Repository/Android/android.widget.EditText - Zip Code'
+
+2023-05-31 18:47:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Android/android.widget.EditText - Country"), "Indonesia", 0): Text 'Indonesia' has been set to element 'Object Repository/Android/android.widget.EditText - Country'
+
+2023-05-31 18:47:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-31 18:47:13 - [MESSAGE][PASSED] - Text 'Indonesia' has been set to element 'Object Repository/Android/android.widget.EditText - Country'
+
+2023-05-31 18:47:13 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Android/android.view.ViewGroup - To Payment"), 0): Tapped on element 'Object Repository/Android/android.view.ViewGroup - To Payment'
+
+2023-05-31 18:47:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-31 18:47:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/android.view.ViewGroup - To Payment'
+
+2023-05-31 18:47:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Android/android.widget.EditText - Card - Full Name"), "Rebecca Winter", 0): Text 'Rebecca Winter' has been set to element 'Object Repository/Android/android.widget.EditText - Card - Full Name'
+
+2023-05-31 18:47:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-31 18:47:16 - [MESSAGE][PASSED] - Text 'Rebecca Winter' has been set to element 'Object Repository/Android/android.widget.EditText - Card - Full Name'
+
+2023-05-31 18:47:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Android/android.widget.EditText - Card - Card Number"), "325812657568789", 0): Text '325812657568789' has been set to element 'Object Repository/Android/android.widget.EditText - Card - Card Number'
+
+2023-05-31 18:47:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-31 18:47:18 - [MESSAGE][PASSED] - Text '325812657568789' has been set to element 'Object Repository/Android/android.widget.EditText - Card - Card Number'
+
+2023-05-31 18:47:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Android/android.widget.EditText - Card - Expiration Date"), "03/25", 0): Text '03/25' has been set to element 'Object Repository/Android/android.widget.EditText - Card - Expiration Date'
+
+2023-05-31 18:47:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-31 18:47:19 - [MESSAGE][PASSED] - Text '03/25' has been set to element 'Object Repository/Android/android.widget.EditText - Card - Expiration Date'
+
+2023-05-31 18:47:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Android/android.widget.EditText - Card - Security Code"), "123", 0): Text '123' has been set to element 'Object Repository/Android/android.widget.EditText - Card - Security Code'
+
+2023-05-31 18:47:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-31 18:47:21 - [MESSAGE][PASSED] - Text '123' has been set to element 'Object Repository/Android/android.widget.EditText - Card - Security Code'
+
+2023-05-31 18:47:21 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Android/android.widget.TextView - Review Order"), 0): Tapped on element 'Object Repository/Android/android.widget.TextView - Review Order'
+
+2023-05-31 18:47:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-31 18:47:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/android.widget.TextView - Review Order'
+
+2023-05-31 18:47:21 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Android/android.widget.TextView - Place Order"), 0): Tapped on element 'Object Repository/Android/android.widget.TextView - Place Order'
+
+2023-05-31 18:47:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-31 18:47:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/android.widget.TextView - Place Order'
+
+2023-05-31 18:47:23 - [TEST_STEP][PASSED] - takeScreenshot("D:\Program Files\Katalon\Katalon Projects\TaskDay8_KatalonMobileTesting_DendyIndriyoSaputro\Screenshot\screenshot1.png"): Screenshot is taken
+
+2023-05-31 18:47:23 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|D:\Program Files\Katalon\Katalon Projects\TaskDay8_KatalonMobileTesting_DendyIndriyoSaputro\Screenshot\screenshot1.png]]
+
+2023-05-31 18:47:23 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Android/android.widget.TextView - Continue Shopping"), 0): Tapped on element 'Object Repository/Android/android.widget.TextView - Continue Shopping'
+
+2023-05-31 18:47:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-31 18:47:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/android.widget.TextView - Continue Shopping'
+
+2023-05-31 18:47:24 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-05-31 18:47:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-05-31 18:47:26 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2023-05-31 18:47:27 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_02_Checkout multiple items using valid account" time="53.78" classname="Test Cases/TC_02_Checkout multiple items using valid account" status="PASSED">
+         <system-out><![CDATA[2023-05-31 18:47:27 - [TEST_CASE][PASSED] - Test Cases/TC_02_Checkout multiple items using valid account: Test Cases/TC_02_Checkout multiple items using valid account
+
+2023-05-31 18:47:27 - [TEST_STEP][PASSED] - startApplication(APK, true): Started app at: 'D:\APK\Android-MyDemoAppRN.1.2.0.build-231.apk'
+
+2023-05-31 18:47:27 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-05-31 18:47:28 - [MESSAGE][INFO] - Appium server started on port 53,213
+
+2023-05-31 18:47:37 - [MESSAGE][PASSED] - Started app at: 'D:\APK\Android-MyDemoAppRN.1.2.0.build-231.apk'
+
+2023-05-31 18:47:37 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Android/android.widget.ImageView - Sauce Labs Bike Light"), 0): Tapped on element 'Object Repository/Android/android.widget.ImageView - Sauce Labs Bike Light'
+
+2023-05-31 18:47:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-31 18:47:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/android.widget.ImageView - Sauce Labs Bike Light'
+
+2023-05-31 18:47:38 - [TEST_STEP][PASSED] - tap(findTestObject("Android/android.widget.TextView - Add To Cart"), 0): Tapped on element 'Object Repository/Android/android.widget.TextView - Add To Cart'
+
+2023-05-31 18:47:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-31 18:47:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/android.widget.TextView - Add To Cart'
+
+2023-05-31 18:47:39 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-05-31 18:47:40 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-05-31 18:47:40 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Android/android.widget.ImageView - Sauce Labs Bolt TShirt"), 0): Tapped on element 'Object Repository/Android/android.widget.ImageView - Sauce Labs Bolt TShirt'
+
+2023-05-31 18:47:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-31 18:47:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/android.widget.ImageView - Sauce Labs Bolt TShirt'
+
+2023-05-31 18:47:41 - [TEST_STEP][PASSED] - tap(findTestObject("Android/android.widget.TextView - Add To Cart"), 0): Tapped on element 'Object Repository/Android/android.widget.TextView - Add To Cart'
+
+2023-05-31 18:47:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-31 18:47:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/android.widget.TextView - Add To Cart'
+
+2023-05-31 18:47:42 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-05-31 18:47:43 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-05-31 18:47:43 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Android/android.widget.ImageView - Sauce Labs Fleece Jacket"), 0): Tapped on element 'Object Repository/Android/android.widget.ImageView - Sauce Labs Fleece Jacket'
+
+2023-05-31 18:47:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-31 18:47:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/android.widget.ImageView - Sauce Labs Fleece Jacket'
+
+2023-05-31 18:47:44 - [TEST_STEP][PASSED] - tap(findTestObject("Android/android.widget.TextView - Add To Cart"), 0): Tapped on element 'Object Repository/Android/android.widget.TextView - Add To Cart'
+
+2023-05-31 18:47:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-31 18:47:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/android.widget.TextView - Add To Cart'
+
+2023-05-31 18:47:45 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-05-31 18:47:46 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-05-31 18:47:46 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Android/android.widget.ImageView - Sauce Labs Onesie"), 0): Tapped on element 'Object Repository/Android/android.widget.ImageView - Sauce Labs Onesie'
+
+2023-05-31 18:47:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-31 18:47:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/android.widget.ImageView - Sauce Labs Onesie'
+
+2023-05-31 18:47:47 - [TEST_STEP][PASSED] - tap(findTestObject("Android/android.widget.TextView - Add To Cart"), 0): Tapped on element 'Object Repository/Android/android.widget.TextView - Add To Cart'
+
+2023-05-31 18:47:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-31 18:47:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/android.widget.TextView - Add To Cart'
+
+2023-05-31 18:47:48 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2023-05-31 18:47:49 - [MESSAGE][PASSED] - Press back button successfully
+
+2023-05-31 18:47:49 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Android/android.widget.ImageView - TestallTheThings"), 0): Tapped on element 'Object Repository/Android/android.widget.ImageView - TestallTheThings'
+
+2023-05-31 18:47:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-31 18:47:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/android.widget.ImageView - TestallTheThings'
+
+2023-05-31 18:47:50 - [TEST_STEP][PASSED] - tap(findTestObject("Android/android.widget.TextView - Add To Cart"), 0): Tapped on element 'Object Repository/Android/android.widget.TextView - Add To Cart'
+
+2023-05-31 18:47:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-31 18:47:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/android.widget.TextView - Add To Cart'
+
+2023-05-31 18:47:51 - [TEST_STEP][PASSED] - tap(findTestObject("Android/android.widget.ImageView - Cart Icon"), 0): Tapped on element 'Object Repository/Android/android.widget.ImageView - Cart Icon'
+
+2023-05-31 18:47:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-31 18:47:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/android.widget.ImageView - Cart Icon'
+
+2023-05-31 18:47:52 - [TEST_STEP][PASSED] - tap(findTestObject("Android/android.widget.TextView - Proceed To Checkout"), 0): Tapped on element 'Object Repository/Android/android.widget.TextView - Proceed To Checkout'
+
+2023-05-31 18:47:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-31 18:47:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/android.widget.TextView - Proceed To Checkout'
+
+2023-05-31 18:47:53 - [TEST_STEP][PASSED] - setText(findTestObject("Android/android.widget.EditText - Username"), USERNAME, 0): Text 'bob@example.com' has been set to element 'Object Repository/Android/android.widget.EditText - Username'
+
+2023-05-31 18:47:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-31 18:47:55 - [MESSAGE][PASSED] - Text 'bob@example.com' has been set to element 'Object Repository/Android/android.widget.EditText - Username'
+
+2023-05-31 18:47:55 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Android/android.widget.EditText - Password"), PASSWORD, 0): Encrypted text 'dbXIBZ66cuht4KTRMDozZw==' has been set to element 'Object Repository/Android/android.widget.EditText - Password'
+
+2023-05-31 18:47:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-31 18:47:56 - [MESSAGE][PASSED] - Encrypted text 'dbXIBZ66cuht4KTRMDozZw==' has been set to element 'Object Repository/Android/android.widget.EditText - Password'
+
+2023-05-31 18:47:56 - [TEST_STEP][PASSED] - tap(findTestObject("Android/android.widget.TextView - Login"), 0): Tapped on element 'Object Repository/Android/android.widget.TextView - Login'
+
+2023-05-31 18:47:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-31 18:47:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/android.widget.TextView - Login'
+
+2023-05-31 18:47:57 - [TEST_STEP][PASSED] - setText(findTestObject("Android/android.widget.EditText - Full Name"), "Abdul Budi", 0): Text 'Abdul Budi' has been set to element 'Object Repository/Android/android.widget.EditText - Full Name'
+
+2023-05-31 18:47:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-31 18:47:59 - [MESSAGE][PASSED] - Text 'Abdul Budi' has been set to element 'Object Repository/Android/android.widget.EditText - Full Name'
+
+2023-05-31 18:47:59 - [TEST_STEP][PASSED] - setText(findTestObject("Android/android.widget.EditText - Address Line 1"), "Mawar 123", 0): Text 'Mawar 123' has been set to element 'Object Repository/Android/android.widget.EditText - Address Line 1'
+
+2023-05-31 18:47:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-31 18:48:01 - [MESSAGE][PASSED] - Text 'Mawar 123' has been set to element 'Object Repository/Android/android.widget.EditText - Address Line 1'
+
+2023-05-31 18:48:01 - [TEST_STEP][PASSED] - setText(findTestObject("Android/android.widget.EditText - City"), "Bekasi", 0): Text 'Bekasi' has been set to element 'Object Repository/Android/android.widget.EditText - City'
+
+2023-05-31 18:48:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-31 18:48:03 - [MESSAGE][PASSED] - Text 'Bekasi' has been set to element 'Object Repository/Android/android.widget.EditText - City'
+
+2023-05-31 18:48:03 - [TEST_STEP][PASSED] - setText(findTestObject("Android/android.widget.EditText - StateorRegion"), "Jawa Barat", 0): Text 'Jawa Barat' has been set to element 'Object Repository/Android/android.widget.EditText - StateorRegion'
+
+2023-05-31 18:48:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-31 18:48:04 - [MESSAGE][PASSED] - Text 'Jawa Barat' has been set to element 'Object Repository/Android/android.widget.EditText - StateorRegion'
+
+2023-05-31 18:48:04 - [TEST_STEP][PASSED] - setText(findTestObject("Android/android.widget.EditText - Zip Code"), "17424", 0): Text '17424' has been set to element 'Object Repository/Android/android.widget.EditText - Zip Code'
+
+2023-05-31 18:48:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-31 18:48:06 - [MESSAGE][PASSED] - Text '17424' has been set to element 'Object Repository/Android/android.widget.EditText - Zip Code'
+
+2023-05-31 18:48:06 - [TEST_STEP][PASSED] - setText(findTestObject("Android/android.widget.EditText - Country"), "Indonesia", 0): Text 'Indonesia' has been set to element 'Object Repository/Android/android.widget.EditText - Country'
+
+2023-05-31 18:48:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-31 18:48:08 - [MESSAGE][PASSED] - Text 'Indonesia' has been set to element 'Object Repository/Android/android.widget.EditText - Country'
+
+2023-05-31 18:48:08 - [TEST_STEP][PASSED] - tap(findTestObject("Android/android.view.ViewGroup - To Payment"), 0): Tapped on element 'Object Repository/Android/android.view.ViewGroup - To Payment'
+
+2023-05-31 18:48:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-31 18:48:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/android.view.ViewGroup - To Payment'
+
+2023-05-31 18:48:08 - [TEST_STEP][PASSED] - setText(findTestObject("Android/android.widget.EditText - Card - Full Name"), "Rebecca Winter", 0): Text 'Rebecca Winter' has been set to element 'Object Repository/Android/android.widget.EditText - Card - Full Name'
+
+2023-05-31 18:48:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-31 18:48:11 - [MESSAGE][PASSED] - Text 'Rebecca Winter' has been set to element 'Object Repository/Android/android.widget.EditText - Card - Full Name'
+
+2023-05-31 18:48:11 - [TEST_STEP][PASSED] - setText(findTestObject("Android/android.widget.EditText - Card - Card Number"), "325812657568789", 0): Text '325812657568789' has been set to element 'Object Repository/Android/android.widget.EditText - Card - Card Number'
+
+2023-05-31 18:48:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-31 18:48:12 - [MESSAGE][PASSED] - Text '325812657568789' has been set to element 'Object Repository/Android/android.widget.EditText - Card - Card Number'
+
+2023-05-31 18:48:12 - [TEST_STEP][PASSED] - setText(findTestObject("Android/android.widget.EditText - Card - Expiration Date"), "03/25", 0): Text '03/25' has been set to element 'Object Repository/Android/android.widget.EditText - Card - Expiration Date'
+
+2023-05-31 18:48:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-31 18:48:13 - [MESSAGE][PASSED] - Text '03/25' has been set to element 'Object Repository/Android/android.widget.EditText - Card - Expiration Date'
+
+2023-05-31 18:48:13 - [TEST_STEP][PASSED] - setText(findTestObject("Android/android.widget.EditText - Card - Security Code"), "123", 0): Text '123' has been set to element 'Object Repository/Android/android.widget.EditText - Card - Security Code'
+
+2023-05-31 18:48:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-31 18:48:15 - [MESSAGE][PASSED] - Text '123' has been set to element 'Object Repository/Android/android.widget.EditText - Card - Security Code'
+
+2023-05-31 18:48:15 - [TEST_STEP][PASSED] - tap(findTestObject("Android/android.widget.TextView - Review Order"), 0): Tapped on element 'Object Repository/Android/android.widget.TextView - Review Order'
+
+2023-05-31 18:48:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-31 18:48:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/android.widget.TextView - Review Order'
+
+2023-05-31 18:48:15 - [TEST_STEP][PASSED] - tap(findTestObject("Android/android.widget.TextView - Place Order"), 0): Tapped on element 'Object Repository/Android/android.widget.TextView - Place Order'
+
+2023-05-31 18:48:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-31 18:48:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/android.widget.TextView - Place Order'
+
+2023-05-31 18:48:17 - [TEST_STEP][PASSED] - takeScreenshot("D:\Program Files\Katalon\Katalon Projects\TaskDay8_KatalonMobileTesting_DendyIndriyoSaputro\Screenshot\screenshot3.png", STOP_ON_FAILURE): Screenshot is taken
+
+2023-05-31 18:48:17 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|D:\Program Files\Katalon\Katalon Projects\TaskDay8_KatalonMobileTesting_DendyIndriyoSaputro\Screenshot\screenshot3.png]]
+
+2023-05-31 18:48:17 - [TEST_STEP][PASSED] - tap(findTestObject("Android/android.widget.TextView - Continue Shopping"), 0): Tapped on element 'Object Repository/Android/android.widget.TextView - Continue Shopping'
+
+2023-05-31 18:48:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-31 18:48:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/android.widget.TextView - Continue Shopping'
+
+2023-05-31 18:48:18 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-05-31 18:48:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-05-31 18:48:20 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2023-05-31 18:48:20 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_03_Catalog sorting" time="20.85" classname="Test Cases/TC_03_Catalog sorting" status="PASSED">
+         <system-out><![CDATA[2023-05-31 18:48:20 - [TEST_CASE][PASSED] - Test Cases/TC_03_Catalog sorting: Test Cases/TC_03_Catalog sorting
+
+2023-05-31 18:48:21 - [TEST_STEP][PASSED] - startApplication(APK, true): Started app at: 'D:\APK\Android-MyDemoAppRN.1.2.0.build-231.apk'
+
+2023-05-31 18:48:21 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2023-05-31 18:48:22 - [MESSAGE][INFO] - Appium server started on port 53,545
+
+2023-05-31 18:48:31 - [MESSAGE][PASSED] - Started app at: 'D:\APK\Android-MyDemoAppRN.1.2.0.build-231.apk'
+
+2023-05-31 18:48:31 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Android/android.view.ViewGroup - Sort Icon"), 0): Tapped on element 'Object Repository/Android/android.view.ViewGroup - Sort Icon'
+
+2023-05-31 18:48:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-31 18:48:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/android.view.ViewGroup - Sort Icon'
+
+2023-05-31 18:48:32 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Android/android.widget.TextView - Name - Ascending"), 0): Tapped on element 'Object Repository/Android/android.widget.TextView - Name - Ascending'
+
+2023-05-31 18:48:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-31 18:48:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/android.widget.TextView - Name - Ascending'
+
+2023-05-31 18:48:33 - [TEST_STEP][PASSED] - tap(findTestObject("Android/android.view.ViewGroup - Sort Icon"), 0): Tapped on element 'Object Repository/Android/android.view.ViewGroup - Sort Icon'
+
+2023-05-31 18:48:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-31 18:48:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/android.view.ViewGroup - Sort Icon'
+
+2023-05-31 18:48:35 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Android/android.widget.TextView - Name - Descending"), 0): Tapped on element 'Object Repository/Android/android.widget.TextView - Name - Descending'
+
+2023-05-31 18:48:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-31 18:48:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/android.widget.TextView - Name - Descending'
+
+2023-05-31 18:48:35 - [TEST_STEP][PASSED] - tap(findTestObject("Android/android.view.ViewGroup - Sort Icon"), 0): Tapped on element 'Object Repository/Android/android.view.ViewGroup - Sort Icon'
+
+2023-05-31 18:48:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-31 18:48:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/android.view.ViewGroup - Sort Icon'
+
+2023-05-31 18:48:36 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Android/android.widget.TextView - Price - Ascending"), 0): Tapped on element 'Object Repository/Android/android.widget.TextView - Price - Ascending'
+
+2023-05-31 18:48:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-31 18:48:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/android.widget.TextView - Price - Ascending'
+
+2023-05-31 18:48:37 - [TEST_STEP][PASSED] - tap(findTestObject("Android/android.view.ViewGroup - Sort Icon"), 0): Tapped on element 'Object Repository/Android/android.view.ViewGroup - Sort Icon'
+
+2023-05-31 18:48:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-31 18:48:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/android.view.ViewGroup - Sort Icon'
+
+2023-05-31 18:48:38 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Android/android.widget.TextView - Price - Descending"), 0): Tapped on element 'Object Repository/Android/android.widget.TextView - Price - Descending'
+
+2023-05-31 18:48:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-05-31 18:48:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android/android.widget.TextView - Price - Descending'
+
+2023-05-31 18:48:39 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+2023-05-31 18:48:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-05-31 18:48:41 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2023-05-31 18:48:41 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-05-31 18:46:41 - [TEST_SUITE][PASSED] - TSuite_01_Positive: Test Cases/TC_03_Catalog sorting]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

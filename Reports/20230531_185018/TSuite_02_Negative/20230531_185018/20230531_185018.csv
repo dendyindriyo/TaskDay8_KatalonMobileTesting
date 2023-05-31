@@ -1,0 +1,44 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TSuite_02_Negative,,,,2023-05-31 18:50:20,2023-05-31 18:51:29,1m - 9.009s,PASSED
+,,,,,,,
+Test Cases/TCN_01_Checkout using invalid account,,,,2023-05-31 18:50:20,2023-05-31 18:50:44,23.421s,PASSED
+"startApplication(APK, true)",,,,2023-05-31 18:50:20,2023-05-31 18:50:32,11.632s,PASSED
+"tap(findTestObject(""Object Repository/Android/android.widget.ImageView - Sauce Labs Backpack""), 0)",,,,2023-05-31 18:50:32,2023-05-31 18:50:33,0.728s,PASSED
+"tap(findTestObject(""Object Repository/Android/android.widget.ImageView - Plus Icon""), 0)",,,,2023-05-31 18:50:33,2023-05-31 18:50:34,1.257s,PASSED
+"tap(findTestObject(""Object Repository/Android/android.widget.TextView - Add To Cart""), 0)",,,,2023-05-31 18:50:34,2023-05-31 18:50:35,0.917s,PASSED
+"tap(findTestObject(""Object Repository/Android/android.widget.ImageView - Cart Icon""), 0)",,,,2023-05-31 18:50:35,2023-05-31 18:50:36,0.850s,PASSED
+"tap(findTestObject(""Object Repository/Android/android.widget.TextView - Proceed To Checkout""), 0)",,,,2023-05-31 18:50:36,2023-05-31 18:50:37,0.767s,PASSED
+"setText(findTestObject(""Object Repository/Android/android.widget.EditText - Username""), INV_USERNAME, 0)",,,,2023-05-31 18:50:37,2023-05-31 18:50:38,1.873s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Android/android.widget.EditText - Password""), PASSWORD, 0)",,,,2023-05-31 18:50:38,2023-05-31 18:50:40,1.210s,PASSED
+"tap(findTestObject(""Object Repository/Android/android.widget.TextView - Login""), 0)",,,,2023-05-31 18:50:40,2023-05-31 18:50:40,0.757s,PASSED
+"takeScreenshot(""D:\Program Files\Katalon\Katalon Projects\TaskDay8_KatalonMobileTesting_DendyIndriyoSaputro\Screenshot\screenshot2.png"")",,,,2023-05-31 18:50:40,2023-05-31 18:50:41,0.589s,PASSED
+delay(2),,,,2023-05-31 18:50:41,2023-05-31 18:50:43,2.038s,PASSED
+closeApplication(),,,,2023-05-31 18:50:43,2023-05-31 18:50:44,0.545s,PASSED
+,,,,,,,
+Test Cases/TCN_02_Checkout using invalid card,,,,2023-05-31 18:50:44,2023-05-31 18:51:29,45.414s,PASSED
+"startApplication(APK, true)",,,,2023-05-31 18:50:44,2023-05-31 18:50:55,10.822s,PASSED
+"tap(findTestObject(""Object Repository/Android/android.widget.ImageView - Sauce Labs Backpack""), 0)",,,,2023-05-31 18:50:55,2023-05-31 18:50:55,0.657s,PASSED
+"tap(findTestObject(""Object Repository/Android/android.widget.ImageView - Plus Icon""), 0)",,,,2023-05-31 18:50:55,2023-05-31 18:50:56,1.155s,PASSED
+"tap(findTestObject(""Object Repository/Android/android.widget.TextView - Add To Cart""), 0)",,,,2023-05-31 18:50:56,2023-05-31 18:50:57,0.996s,PASSED
+"tap(findTestObject(""Object Repository/Android/android.widget.ImageView - Cart Icon""), 0)",,,,2023-05-31 18:50:57,2023-05-31 18:50:58,0.857s,PASSED
+"tap(findTestObject(""Object Repository/Android/android.widget.ImageView - Minus Icon""), 0)",,,,2023-05-31 18:50:58,2023-05-31 18:50:59,0.747s,PASSED
+"tap(findTestObject(""Object Repository/Android/android.widget.TextView - Proceed To Checkout""), 0)",,,,2023-05-31 18:50:59,2023-05-31 18:51:00,0.808s,PASSED
+"setText(findTestObject(""Object Repository/Android/android.widget.EditText - Username""), USERNAME, 0)",,,,2023-05-31 18:51:00,2023-05-31 18:51:02,1.813s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Android/android.widget.EditText - Password""), PASSWORD, 0)",,,,2023-05-31 18:51:02,2023-05-31 18:51:03,1.188s,PASSED
+"tap(findTestObject(""Object Repository/Android/android.widget.TextView - Login""), 0)",,,,2023-05-31 18:51:03,2023-05-31 18:51:04,0.751s,PASSED
+"setText(findTestObject(""Object Repository/Android/android.widget.EditText - Full Name""), ""Abdul Budi"", 0)",,,,2023-05-31 18:51:04,2023-05-31 18:51:06,2.557s,PASSED
+"setText(findTestObject(""Object Repository/Android/android.widget.EditText - Address Line 1""), ""Mawar 123"", 0)",,,,2023-05-31 18:51:06,2023-05-31 18:51:07,1.142s,PASSED
+"setText(findTestObject(""Object Repository/Android/android.widget.EditText - City""), ""Bekasi"", 0)",,,,2023-05-31 18:51:07,2023-05-31 18:51:09,1.153s,PASSED
+"setText(findTestObject(""Object Repository/Android/android.widget.EditText - StateorRegion""), ""Jawa Barat"", 0)",,,,2023-05-31 18:51:09,2023-05-31 18:51:10,1.649s,PASSED
+"setText(findTestObject(""Object Repository/Android/android.widget.EditText - Zip Code""), ""17424"", 0)",,,,2023-05-31 18:51:10,2023-05-31 18:51:12,1.627s,PASSED
+"setText(findTestObject(""Object Repository/Android/android.widget.EditText - Country""), ""Indonesia"", 0)",,,,2023-05-31 18:51:12,2023-05-31 18:51:13,1.610s,PASSED
+"tap(findTestObject(""Object Repository/Android/android.view.ViewGroup - To Payment""), 0)",,,,2023-05-31 18:51:13,2023-05-31 18:51:14,0.620s,PASSED
+"setText(findTestObject(""Object Repository/Android/android.widget.EditText - Card - Full Name""), ""Rebecca Winter"", 0)",,,,2023-05-31 18:51:14,2023-05-31 18:51:16,2.386s,PASSED
+"setText(findTestObject(""Object Repository/Android/android.widget.EditText - Card - Card Number""), ""asd"", 1)",,,,2023-05-31 18:51:16,2023-05-31 18:51:18,1.117s,PASSED
+delay(3),,,,2023-05-31 18:51:18,2023-05-31 18:51:21,3.011s,PASSED
+"setText(findTestObject(""Object Repository/Android/android.widget.EditText - Card - Expiration Date""), ""0/2"", 0)",,,,2023-05-31 18:51:21,2023-05-31 18:51:22,1.197s,PASSED
+"setText(findTestObject(""Object Repository/Android/android.widget.EditText - Card - Security Code""), ""12"", 0)",,,,2023-05-31 18:51:22,2023-05-31 18:51:23,1.142s,PASSED
+delay(3),,,,2023-05-31 18:51:23,2023-05-31 18:51:26,3.001s,PASSED
+"takeScreenshot(""D:\Program Files\Katalon\Katalon Projects\TaskDay8_KatalonMobileTesting_DendyIndriyoSaputro\Screenshot\screenshot4.png"")",,,,2023-05-31 18:51:26,2023-05-31 18:51:26,0.498s,PASSED
+delay(2),,,,2023-05-31 18:51:26,2023-05-31 18:51:28,2.003s,PASSED
+closeApplication(),,,,2023-05-31 18:51:28,2023-05-31 18:51:29,0.624s,PASSED
