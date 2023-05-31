@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCN_01_Checkout using invalid account</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>aef880ee-8111-4c18-9371-4ee30f89fb77</testCaseGuid>
+</TestCaseEntity>
